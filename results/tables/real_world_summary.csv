@@ -1,0 +1,6 @@
+Experiment,Algorithm,Final Cumulative Regret (Mean),Final Cumulative Regret (Std),Total Reward (Mean),Total Reward (Std),Accuracy / Reward Rate (%)
+64-Dim Benchmark,"Stationary UCB1 (MAB, No Context)",2697.0,14.317821,303.0,14.317821,10.1
+64-Dim Benchmark,"Thompson Sampling (MAB, No Context)",2706.9,17.483993,293.1,17.483993,9.77
+64-Dim Benchmark,Stationary LinUCB (CMAB),1796.9,36.930881,1203.1,36.930881,40.103333
+64-Dim Benchmark,Sliding-Window LinUCB (Non-Stat CMAB),2052.1,18.091158,947.9,18.091158,31.596667
+64-Dim Benchmark,Discounted LinUCB (Non-Stat CMAB),2170.1,11.484337,829.9,11.484337,27.663333

@@ -1,0 +1,4 @@
+Quadrant,Algorithm,Final Cumulative Regret (Mean),Final Cumulative Regret (Std),Total Reward (Mean),Total Reward (Std)
+Non-Stationary CMAB,Stationary LinUCB (baseline),789.546947,9.14161,309.568708,12.772318
+Non-Stationary CMAB,Sliding-Window LinUCB (tau=400),232.31074,8.953704,866.804914,13.234792
+Non-Stationary CMAB,Discounted LinUCB (gamma=0.99),156.350162,6.402008,942.765493,13.364024

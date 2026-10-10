@@ -1,0 +1,5 @@
+Quadrant,Algorithm,Final Cumulative Regret (Mean),Final Cumulative Regret (Std),Total Reward (Mean),Total Reward (Std)
+Non-Stationary MAB,Stationary UCB1 (baseline),176.13,18.651531,2418.9,23.505106
+Non-Stationary MAB,Sliding-Window UCB (tau=300),205.965,19.736249,2391.7,25.123893
+Non-Stationary MAB,Discounted UCB (gamma=0.98),497.665,20.474009,2102.2,27.31959
+Non-Stationary MAB,Discounted TS (gamma=0.98),294.095,18.532154,2302.4,30.955452

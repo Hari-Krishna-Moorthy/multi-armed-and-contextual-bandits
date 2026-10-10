@@ -1,0 +1,5 @@
+Quadrant,Algorithm,Final Cumulative Regret (Mean),Final Cumulative Regret (Std),Total Reward (Mean),Total Reward (Std)
+Stationary MAB,Epsilon-Greedy (eps=0.1),79.43,18.087167,1521.3,19.396134
+Stationary MAB,Epsilon-Greedy (decaying),40.855,6.365,1558.2,25.122898
+Stationary MAB,UCB1 (c=1.0),104.45,9.728797,1491.9,25.181144
+Stationary MAB,Thompson Sampling (Beta),19.605,6.586291,1577.8,21.507208

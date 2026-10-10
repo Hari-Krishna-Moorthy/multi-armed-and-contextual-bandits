@@ -1,0 +1,15 @@
+Quadrant,Algorithm,Final Cumulative Regret (Mean),Final Cumulative Regret (Std),Total Reward (Mean),Total Reward (Std)
+Stationary MAB,Epsilon-Greedy (eps=0.1),79.43,18.087167,1521.3,19.396134
+Stationary MAB,Epsilon-Greedy (decaying),40.855,6.365,1558.2,25.122898
+Stationary MAB,UCB1 (c=1.0),104.45,9.728797,1491.9,25.181144
+Stationary MAB,Thompson Sampling (Beta),19.605,6.586291,1577.8,21.507208
+Non-Stationary MAB,Stationary UCB1 (baseline),176.13,18.651531,2418.9,23.505106
+Non-Stationary MAB,Sliding-Window UCB (tau=300),205.965,19.736249,2391.7,25.123893
+Non-Stationary MAB,Discounted UCB (gamma=0.98),497.665,20.474009,2102.2,27.31959
+Non-Stationary MAB,Discounted TS (gamma=0.98),294.095,18.532154,2302.4,30.955452
+Stationary CMAB,LinUCB (alpha=1.0),16.776293,2.654933,712.958295,8.775133
+Stationary CMAB,Linear TS (v=0.5),96.230912,3.422531,633.503676,9.152076
+Stationary CMAB,Contextual Eps-Greedy (eps=0.1),95.76789,6.571551,633.966698,6.883094
+Non-Stationary CMAB,Stationary LinUCB (baseline),789.546947,9.14161,309.568708,12.772318
+Non-Stationary CMAB,Sliding-Window LinUCB (tau=400),232.31074,8.953704,866.804914,13.234792
+Non-Stationary CMAB,Discounted LinUCB (gamma=0.99),156.350162,6.402008,942.765493,13.364024
